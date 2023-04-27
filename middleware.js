@@ -1,9 +1,9 @@
 const jwt = require('jsonwebtoken')
 
 const notFoundHandler = ('*', (req, res, next) => {
-    const error = new Error(`Not Found - ${req.originalUrl}`)
+    // const error = new Error(`Not Found - ${req.originalUrl}`)
     res.status(404)
-    next(error)
+    next()
 })
 
 const auth = (req, res, next) => {

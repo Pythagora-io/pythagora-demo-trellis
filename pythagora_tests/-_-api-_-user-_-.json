@@ -1,0 +1,118 @@
+[
+  {
+    "id": "11f51c71-0dd2-4966-8c51-7c17e471eae5",
+    "endpoint": "/api/user/",
+    "url": "http://localhost:1313/api/user/",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "if-none-match": "W/\"3e-HDfKPq5YFr+kUL+iX7dM+rhrTKw\"",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/pythagora/boards",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"username\":\"pythagora\",\"id\":\"644a2e3e25ec9a089329cbb9\"}",
+    "traceId": 551,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "807f3a96-6774-4ad2-8b34-de8bf8022d23",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "username": "pythagora",
+            "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "username": "pythagora",
+          "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "username": "pythagora",
+            "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "a9492db9-76e2-4754-85f1-ebe7c12b3446",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "username": "pythagora",
+            "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "username": "pythagora",
+          "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "username": "pythagora",
+            "password": "$2a$10$QsNT/SrFcOTCfXdLo2eeHuPhtquUAQ.pzOaOZMHYqw3wW.bQYPcsm",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 4,
+    "mongoQueriesCapture": 2,
+    "statusCode": 200,
+    "traceLegacy": [
+      551
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:11:46.781Z"
+  }
+]

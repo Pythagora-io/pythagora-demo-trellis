@@ -1,0 +1,602 @@
+[
+  {
+    "id": "6e5905c4-e088-4676-b251-12ccb4b2993a",
+    "endpoint": "/api/lists/",
+    "url": "http://localhost:1313/api/lists/",
+    "body": {
+      "name": "List1",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "order": "n"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "65",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e5225ec9a089329cbcc\",\"name\":\"List1\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"order\":\"n\",\"createdAt\":\"2023-04-27T08:12:02.532Z\",\"updatedAt\":\"2023-04-27T08:12:02.532Z\",\"__v\":0}",
+    "traceId": 1770,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "9888dca3-e15a-47b0-9ca0-1b0b44b59bb8",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "336aeb60-6c57-4730-9827-bf7c4a2c2e96",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "3ad45d4b-2f62-4529-afb6-5b3212aca0f2",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+          "name": "List1",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "order": "n",
+          "createdAt": "Date(\"2023-04-27T08:12:02.532Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:02.532Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "lists",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+            "name": "List1",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "order": "n",
+            "createdAt": "Date(\"2023-04-27T08:12:02.532Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:02.532Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 13,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      1770
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:02.634Z"
+  },
+  {
+    "id": "a18669a7-bbd1-49b2-90f5-01a2b8661fc2",
+    "endpoint": "/api/lists/",
+    "url": "http://localhost:1313/api/lists/",
+    "body": {
+      "name": "List2",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "order": "u"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "65",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e5825ec9a089329cbd4\",\"name\":\"List2\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"order\":\"u\",\"createdAt\":\"2023-04-27T08:12:08.025Z\",\"updatedAt\":\"2023-04-27T08:12:08.025Z\",\"__v\":0}",
+    "traceId": 2122,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "26caf3a2-3501-4553-8467-7826fa81bbe3",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "31c7d2ff-b070-49a0-895e-0f2f37309042",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "7b43e563-2afd-4bcd-a8e7-6c6b826ff150",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+          "name": "List2",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "order": "u",
+          "createdAt": "Date(\"2023-04-27T08:12:08.025Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:08.025Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "lists",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+            "name": "List2",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "order": "u",
+            "createdAt": "Date(\"2023-04-27T08:12:08.025Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:08.025Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 15,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2122
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:08.032Z"
+  },
+  {
+    "id": "3bd9aa28-ea81-40ef-8291-553a6b5db8f3",
+    "endpoint": "/api/lists/",
+    "url": "http://localhost:1313/api/lists/",
+    "body": {
+      "name": "List3",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "order": "x"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "65",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e5b25ec9a089329cbd8\",\"name\":\"List3\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"order\":\"x\",\"createdAt\":\"2023-04-27T08:12:11.297Z\",\"updatedAt\":\"2023-04-27T08:12:11.297Z\",\"__v\":0}",
+    "traceId": 2478,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "02d65fc0-f449-4e25-81d5-aa145ecb87dc",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "d812ffab-b9dc-49e6-934b-07f11b301014",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "4a75e71a-9244-4505-bcbf-30f87fb4b9a9",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e5b25ec9a089329cbd8\")",
+          "name": "List3",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "order": "x",
+          "createdAt": "Date(\"2023-04-27T08:12:11.297Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:11.297Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "lists",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e5b25ec9a089329cbd8\")",
+            "name": "List3",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "order": "x",
+            "createdAt": "Date(\"2023-04-27T08:12:11.297Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:11.297Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 17,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2478
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:11.303Z"
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "id": "2bc3e0e3-8589-49d7-96a4-77ad218ca432",
+    "endpoint": "/api/cards/",
+    "url": "http://localhost:1313/api/cards/",
+    "body": {
+      "name": "card1",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "listId": "644a2e5225ec9a089329cbcc",
+      "order": "n"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "101",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e5e25ec9a089329cbde\",\"name\":\"card1\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"listId\":\"644a2e5225ec9a089329cbcc\",\"order\":\"n\",\"createdAt\":\"2023-04-27T08:12:14.943Z\",\"updatedAt\":\"2023-04-27T08:12:14.943Z\",\"__v\":0}",
+    "traceId": 2827,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "7690d240-7a01-4794-b70b-d3b0fa7d52a4",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "452bcebb-8b83-4c46-b95b-e77bfc67f59a",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "8202f1dc-27f4-460a-b0b0-0b35226e1743",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e5e25ec9a089329cbde\")",
+          "name": "card1",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "listId": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+          "order": "n",
+          "createdAt": "Date(\"2023-04-27T08:12:14.943Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:14.943Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "cards",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e5e25ec9a089329cbde\")",
+            "name": "card1",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "listId": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+            "order": "n",
+            "createdAt": "Date(\"2023-04-27T08:12:14.943Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:14.943Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 19,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2827
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:15.101Z"
+  },
+  {
+    "id": "4d0c1548-0715-4351-9cd5-2cc7a7540a41",
+    "endpoint": "/api/cards/",
+    "url": "http://localhost:1313/api/cards/",
+    "body": {
+      "name": "card2",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "listId": "644a2e5225ec9a089329cbcc",
+      "order": "u"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "101",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e6225ec9a089329cbe4\",\"name\":\"card2\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"listId\":\"644a2e5225ec9a089329cbcc\",\"order\":\"u\",\"createdAt\":\"2023-04-27T08:12:18.355Z\",\"updatedAt\":\"2023-04-27T08:12:18.355Z\",\"__v\":0}",
+    "traceId": 3179,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "f85bef08-5d1c-43f7-a0ea-9564987c009c",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "05dd145f-7e75-46ba-a06e-4d2d2eeb455a",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "49059dc7-c40f-4879-866e-8e42e78ebb89",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e6225ec9a089329cbe4\")",
+          "name": "card2",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "listId": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+          "order": "u",
+          "createdAt": "Date(\"2023-04-27T08:12:18.355Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:18.355Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "cards",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e6225ec9a089329cbe4\")",
+            "name": "card2",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "listId": "ObjectId(\"644a2e5225ec9a089329cbcc\")",
+            "order": "u",
+            "createdAt": "Date(\"2023-04-27T08:12:18.355Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:18.355Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 21,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      3179
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:18.360Z"
+  },
+  {
+    "id": "dff57208-d4ca-4c21-af0a-9bbbe995b722",
+    "endpoint": "/api/cards/",
+    "url": "http://localhost:1313/api/cards/",
+    "body": {
+      "name": "card3",
+      "boardId": "644a2e4a25ec9a089329cbbe",
+      "listId": "644a2e5825ec9a089329cbd4",
+      "order": "n"
+    },
+    "method": "POST",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGEyZTNlMjVlYzlhMDg5MzI5Y2JiOSIsImlhdCI6MTY4MjU4MzEwNn0.U0gP5KH134YuZNK_PCZNWvSA2Fh5vRmYgV5UTvV8dgI",
+      "content-type": "application/json;charset=UTF-8",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "content-length": "101",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e6c25ec9a089329cbeb\",\"name\":\"card3\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"listId\":\"644a2e5825ec9a089329cbd4\",\"order\":\"n\",\"createdAt\":\"2023-04-27T08:12:28.825Z\",\"updatedAt\":\"2023-04-27T08:12:28.825Z\",\"__v\":0}",
+    "traceId": 3610,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "2f9a787b-eec1-49b8-bb0e-33bf985b5ebc",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "93d0e07d-6e2c-4b50-9159-ff69b9d8e66f",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "trellis",
+        "collection": "boards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "name": "Board1",
+          "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+          "image": {
+            "color": "white",
+            "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+            "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+          },
+          "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "name": "Board1",
+            "userId": "ObjectId(\"644a2e3e25ec9a089329cbb9\")",
+            "image": {
+              "color": "white",
+              "thumb": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+              "full": "https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            },
+            "createdAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:11:54.625Z\")",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "b36f8172-bd61-4100-ace9-f5373a99b2e7",
+        "preQueryRes": [],
+        "query": {
+          "_id": "ObjectId(\"644a2e6c25ec9a089329cbeb\")",
+          "name": "card3",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "listId": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+          "order": "n",
+          "createdAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "trellis",
+        "collection": "cards",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e6c25ec9a089329cbeb\")",
+            "name": "card3",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "listId": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+            "order": "n",
+            "createdAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 24,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      3610
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:28.831Z"
+  }
+]

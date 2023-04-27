@@ -1,0 +1,81 @@
+[
+  {
+    "id": "2c133959-d549-4516-a613-6a1fcb87591d",
+    "endpoint": "/api/cards/644a2e6c25ec9a089329cbeb",
+    "url": "http://localhost:1313/api/cards/644a2e6c25ec9a089329cbeb",
+    "body": {},
+    "method": "DELETE",
+    "headers": {
+      "x-forwarded-host": "localhost:3000",
+      "x-forwarded-proto": "http",
+      "x-forwarded-port": "3000",
+      "x-forwarded-for": "127.0.0.1",
+      "content-length": "0",
+      "cookie": "Webstorm-fdd3199d=90a7787e-b337-4c21-a78f-9ad5c0bd3f55; _ga=GA1.1.430817103.1658159458; at=at2; _ga_6NQ7WWF1SV=GS1.1.1672298368.113.0.1672298368.0.0.0; __gads=ID=7938b5a12b0f080d:T=1672645235:S=ALNI_Ma-1R5o-FoLYGIa_8AsrizTNT2EoA; ackee_ignore=1; __gpi=UID=00000b9c043e0190:T=1672645235:RT=1678179242:S=ALNI_MaLjwywrDqQRg3XLqCBVr9PwReCxg; _aww_reg=main-login,---,main-login,---,main-login,main-login,---; MCPopupClosed=yes; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWRmNjVmNzRhYjNjNzc4ZDk1ZGIyZSIsImlhdCI6MTY4MjQ0MTEzNSwiZXhwIjoxNjgyNDQxMTQ1fQ.1YrA-fPftK1Uq4wSQ5xnD8NFKery3Banj24DVI_06f0",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "http://localhost:3000/b/644a2e4a25ec9a089329cbbe/Board1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "origin": "http://localhost:1313",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+      "connection": "close",
+      "host": "localhost:1313"
+    },
+    "responseData": "{\"_id\":\"644a2e6c25ec9a089329cbeb\",\"name\":\"card3\",\"boardId\":\"644a2e4a25ec9a089329cbbe\",\"listId\":\"644a2e5825ec9a089329cbd4\",\"order\":\"n\",\"createdAt\":\"2023-04-27T08:12:28.825Z\",\"updatedAt\":\"2023-04-27T08:12:28.825Z\",\"__v\":0}",
+    "traceId": 3965,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "d987546d-f039-4e2c-8202-68a61890f296",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"644a2e6c25ec9a089329cbeb\")",
+            "name": "card3",
+            "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+            "listId": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+            "order": "n",
+            "createdAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+            "updatedAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"644a2e6c25ec9a089329cbeb\")"
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "findOneAndDelete",
+        "db": "trellis",
+        "collection": "cards",
+        "mongoRes": {
+          "_id": "ObjectId(\"644a2e6c25ec9a089329cbeb\")",
+          "name": "card3",
+          "boardId": "ObjectId(\"644a2e4a25ec9a089329cbbe\")",
+          "listId": "ObjectId(\"644a2e5825ec9a089329cbd4\")",
+          "order": "n",
+          "createdAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+          "updatedAt": "Date(\"2023-04-27T08:12:28.825Z\")",
+          "__v": 0
+        },
+        "postQueryRes": []
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 26,
+    "mongoQueriesCapture": 1,
+    "statusCode": 200,
+    "traceLegacy": [
+      3965
+    ],
+    "pythagoraVersion": "^0.0.46",
+    "createdAt": "2023-04-27T08:12:30.300Z"
+  }
+]
